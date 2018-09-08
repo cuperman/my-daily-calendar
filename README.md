@@ -23,10 +23,10 @@ connect to [localhost:3000](http://localhost:3000)
 
 The entry point is `index.js`, which mounts the `App` component to the dom.  The following illustrates the hierarchy of the sub components.
 
-```html
-<!-- entry: index.js -->
-<App><!-- is responsible for state management -->
-  <MyDailyCalendar /><!-- displays the current month and date -->
-  <Nav /><!-- contains buttons to navigate to different dates -->
+```jsx
+{/* entry: index.js */}
+<App>{/* is responsible for state management */}
+  <MyDailyCalendar />{/* displays the current month and date */}
+  <Nav />{/* contains buttons to navigate to different dates */}
 </App>
 ```
